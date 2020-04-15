@@ -1,0 +1,325 @@
+$maincolor:#ed000b;
+/*--------------HOME PAGE --------*/
+.home{
+  @extend .text;
+&-virus{
+  width: 100%;
+    height:350px
+  }
+  &-btn1{
+    background-color: $maincolor;
+    border-color: $maincolor;
+    padding: 10px;
+    width: 100px;
+  }
+  &-btn2{
+    background: white;
+    color: gray;
+    border-color: gray;
+    padding: 10px;   
+    width: 80px;
+  }
+  &-pic{
+    width: 100%;
+  }
+  &-facts{
+    margin: auto;
+    &-card{
+      text-align: center;
+      border-right: 1px solid gray;
+      font-size: 29px;
+    }
+    &-card2{
+      @extend .home-facts-card;
+      border-right: unset !important;
+
+    }
+    &-num{
+      font-size: 100px !important;
+      color: $maincolor;
+    }
+    &-plus{
+      font-size: 70px;
+      color: $maincolor;
+
+    }
+
+  }
+
+  &-serv{
+    &-pic{
+      width: 100%;
+      height: 427px;
+      border-radius: 27px;
+      opacity: 0.8;
+      position: relative;
+      
+        }
+
+    &-text{
+      position: absolute;
+      top: 80%;
+      left: 5%;
+      color: white;
+    }
+  }
+  &-course{
+    &-text{
+      text-align: center;
+    }
+    &-card{
+      margin-bottom: 5%;
+    }
+   
+
+    &-pic{
+      width: 100%;
+      border-radius: 27px;
+      height: 320px;
+      position: relative;
+    }
+    &-des{
+      position: absolute;
+      top:61%;
+      left:13%;
+      background-color: white;
+      width:80%;
+      border-radius: 15px;
+      padding: 3%;
+      p{
+        font-size: 24px;;
+      }
+    }
+    &-pic2{
+      border-radius: 19px;
+      width: 52%;
+    height: 378px;
+      position: relative;
+
+    }
+    &-des2{
+      position: absolute;
+    top: 12%;
+    left: 27%;
+    background-color: white;
+    width: 54%;
+    border-radius: 15px;
+    padding: 3%;
+    border: 1px solid #f7f9f9;
+      padding: 3%;
+      p{
+        font-size: 18px;;
+      }
+     
+    }
+  }
+    &-svg{
+      height: 29px;
+    }
+
+  &-inst{
+    &-title{
+      margin-bottom: 20px;
+      margin-left: 4%;
+    }
+    &-card{
+      h4{
+        margin-top: 33%;
+
+      }
+      margin-top: 30%;
+    padding: 4%;
+      text-align: center;
+      border: 1px solid #faf9f9;
+      font-size: 29px;
+      background-color: white;
+      border-radius: 12px;
+      position: relative;
+    }
+    &-pic{
+      position: absolute;
+    bottom: 80%;
+    width: 70%;
+    height: 215px;
+    left: 15%;
+    border-radius: 12px;
+    }
+  }
+
+  &-client{
+    &-logo{
+      width:86%;
+     
+
+    }
+  }
+  &-footer{
+    &-pic{
+     
+      background-image: url("../assets/footer1.png");
+      height: 400px;;
+    }
+    &-title{
+      
+      text-align: center;
+      color: white;
+    }
+  }
+}
+.courses{
+  a{
+    color: gray !important;
+  }
+ 
+&-navbar {
+ 
+    width: 100%;
+    background-image: url("../assets/pagetitle.png");
+    position: relative;
+    top: 0;
+    right: 0;
+    left:0;
+    border-bottom: 2px solid #ebe7e7;
+    &-logo {
+       height: 70px;
+      }
+     &-menu {
+      margin: auto;
+     }
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+  }
+  li {
+    display: inline;
+    color: gray;
+    margin-left: 4%;
+    font-size: 18px !important;
+  }
+  a:hover {
+    border-bottom:3px solid $maincolor;
+  }
+  
+  a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+      
+  }
+  
+
+  &-pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px
+  }
+  &-svg{
+    height: 10px;
+  }
+  &-join{
+      color: $maincolor;
+      font-size: 20px;
+  }
+ 
+  
+  
+}
+.font{
+  font-size: 24px;
+}
+footer{
+  font-size: 24px;
+  width: 100%;
+  margin-top: 10%;
+  color: white;
+  background-color: gray;
+  position: static;
+  ul {
+    list-style: none;
+   
+  }
+ a{
+      color: white;
+  }
+}
+.text{
+  color: gray !important;
+  
+}
+
+
+ /*--------------------------------------------*/
+ .content{
+  h6{
+    color: gray;
+  }
+    &-card{
+      border-radius: 3px;
+      height: 60px;
+      width: 100%;
+      background-color: gray;
+      color: white;
+      p{
+        margin-left: 3%;
+      
+        
+      }
+    }
+    &-video{
+      width: 100%;
+      height: 300px;
+      border-radius: 7px;
+    }
+    &-des{
+      border-bottom: 1px solid #e2dddd;
+    }
+    &-inst{
+      border-bottom: 1px solid #e2dddd;
+   
+      &-pic{
+        width: 100%;
+        height: 100px;
+        border-radius: 6px;
+      }
+    }
+    &-acc{
+      &-logo1{
+        width: 186px; 
+        margin-top: 17%;
+        
+      }
+      &-logo2{
+        margin-left: 19%;
+        width: 100px;    
+        margin-top: 17%
+      }
+    }
+    &-intro{
+      padding: 4%;
+      border-bottom: 1px solid #e2dddd;
+
+
+    }
+  }
+
+  .newsfeed{
+    &-pic{
+      height: 300px;
+      width: 100%;
+      border-radius: 15px;
+  
+    }
+    &-date{
+      font-size: 12px;
+    }
+  }
+
+  .psp{
+    &-pic{
+      width: 200px;
+    height: 250px;
+    border-radius: 29px
+    }
+  }
