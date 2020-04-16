@@ -3,8 +3,8 @@ $maincolor:#ed000b;
 .home{
   @extend .text;
 &-virus{
-  width: 100%;
-    height:350px
+  width: 80%;
+    height: 500px;
   }
   &-btn1{
     background-color: $maincolor;
@@ -235,7 +235,8 @@ footer{
   margin-top: 10%;
   color: white;
   background-color: gray;
-  position: static;
+  position: absolute;
+  overflow: hidden;
   ul {
     list-style: none;
    
@@ -248,7 +249,46 @@ footer{
   color: gray !important;
   
 }
+/*------------------slide show ----------------*/
 
+    .mySlides {display: none;}
+    
+    
+    /* Slideshow container */
+    .slideshow-container {
+      /* max-width: 10px; */
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    /* @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    } */
+  
 
  /*--------------------------------------------*/
  .content{
@@ -304,18 +344,7 @@ footer{
     }
   }
 
-  .newsfeed{
-    &-pic{
-      height: 300px;
-      width: 100%;
-      border-radius: 15px;
-  
-    }
-    &-date{
-      font-size: 12px;
-    }
-  }
-
+ 
   .psp{
     &-pic{
       width: 200px;
