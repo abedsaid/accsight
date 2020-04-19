@@ -1,0 +1,372 @@
+$maincolor:#ed000b;
+
+$textcolor:#7D7B7D;
+
+/*--------------HOME PAGE --------*/
+
+.home{
+  @extend .text;
+
+  &-subtitle{
+    font: Bold 40px/60px Roboto;
+    color:$textcolor;
+  }
+  &-slidertext{
+    text-align: left;
+    font: Bold 50px/65px Roboto;
+    letter-spacing: 1px;
+    color: #7D7B7D;
+    opacity: 1;
+    &-dev{
+      top: 331px;
+    }
+    }
+  &-sliderpic{
+   
+    width: 540px;
+      height: 706px;
+    &-dev{
+      top:177px
+    }
+
+  
+
+
+  }
+  &-sliderviurs{
+    width: 752px;
+    height: 714px;
+  &-dev{
+    top: 100px;
+
+  }
+  }
+  &-btn1{
+    background-color: $maincolor;
+    border-color: $maincolor;
+    padding: 10px;
+    width: 150px;
+    font: normal 24px/45px Roboto;
+    letter-spacing: 0.48px;
+  }
+  &-btn2{
+    font: normal 24px/45px Roboto;
+    background: white;
+    color: gray;
+    border-color: gray;
+    padding: 10px;   
+    width: 120px;
+    letter-spacing: 0.48px;
+  }
+  &-pic{
+    width: 100%;
+  }
+  &-facts{
+    margin: auto;
+    &-card{
+      text-align: center;
+      border-right: 1px solid $textcolor ;
+      font-size: 29px;
+    }
+    &-card2{
+      @extend .home-facts-card;
+      border-right: unset !important;
+
+    }
+    &-num{
+      font-size: 100px !important;
+      color: $maincolor;
+    }
+    &-plus{
+      font-size: 70px;
+      color: $maincolor;
+
+    }
+
+  }
+
+  &-serv{
+    &-title{
+      font: Bold 36px/54px Roboto;
+      
+    }
+    &-pic{
+      width: 100%;
+      height: 427px;
+      border-radius: 27px;
+      opacity: 0.8;
+      position: relative;
+      
+        }
+
+    &-text{
+      position: absolute;
+      top: 80%;
+      left: 5%;
+      color: white;
+    }
+  }
+  &-course{
+    &-text{
+      text-align: center;
+    }
+    &-card{
+      margin-bottom: 5%;
+    }
+   
+
+    &-pic{
+      width: 100%;
+      border-radius: 27px;
+      height: 320px;
+      position: relative;
+    }
+    &-des{
+      position: absolute;
+      top:61%;
+      left:13%;
+      background-color: white;
+      width:80%;
+      border-radius: 15px;
+      padding: 3%;
+      p{
+        font-size: 24px;;
+      }
+    }
+    &-pic2{
+      border-radius: 19px;
+      width: 52%;
+    height: 378px;
+      position: relative;
+
+    }
+    &-des2{
+      position: absolute;
+    top: 12%;
+    left: 27%;
+    background-color: white;
+    width: 54%;
+    border-radius: 15px;
+    padding: 3%;
+    border: 1px solid #f7f9f9;
+      padding: 3%;
+      p{
+        font-size: 18px;;
+      }
+     
+    }
+  }
+    &-svg{
+      height: 29px;
+    }
+    &-instructors{
+      font: normal 30px/45px Roboto;
+    }
+  &-inst{
+    &-title{
+      margin-bottom: 20px;
+      
+    }
+    &-card{
+      h4{
+        margin-top: 33%;
+
+      }
+      margin-top: 30%;
+    padding: 4%;
+      text-align: center;
+      border: 1px solid #faf9f9;
+      font-size: 29px;
+      background-color: white;
+      border-radius: 12px;
+      position: relative;
+    }
+    &-pic{
+      position: absolute;
+    bottom: 80%;
+    width: 70%;
+    height: 215px;
+    left: 15%;
+    border-radius: 12px;
+    }
+  }
+
+  &-client{
+    &-logo{
+      width:86%;
+     
+
+    }
+  }
+  &-navbar {
+ 
+    width: 100%;
+    background-image: url("../../assets/sliderbackground.svg");
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    left:0;
+    border-bottom: 2px solid #ebe7e7;
+    &-logo {
+    
+      width: 200px;
+      height: 66px;
+      &-dev{
+       top: 49px;
+        
+      }
+      }
+     &-menu {
+      margin: auto;
+     }
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+  }
+  li {
+    display: inline;
+    color: gray;
+    margin-left: 4%;
+    font-size: 18px !important;
+  }
+  a:hover {
+    border-bottom:3px solid $maincolor;
+  }
+  
+  a {
+    color: gray;
+    text-decoration: none;
+    font: normal 24px/45px Roboto;
+  }
+  &-subtitle{
+    margin-top:172px;
+
+    width: 487px;
+    height: 48px;
+  }
+      
+  }
+  
+  &-footer{
+    &-pic{
+     position: relative;
+      background-image: url("../../assets/footer1.png");
+      height: 400px;;
+    }
+    &-title{
+      position: absolute;
+      top: 26%;
+      text-align: center;
+      left: 20%;
+      color: white;
+    }
+  }
+}
+
+
+.font{
+  font-size: 24px;
+}
+
+.text{
+  color: gray !important;
+  
+}
+/*------------------slide show ----------------*/
+
+    .mySlides {display: none;}
+    
+    
+    /* Slideshow container */
+    .slideshow-container {
+      /* max-width: 10px; */
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    /* @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    } */
+  
+
+ /*--------------------------------------------*/
+ .content{
+  h6{
+    color: gray;
+  }
+    &-card{
+      border-radius: 3px;
+      height: 60px;
+      width: 100%;
+      background-color: gray;
+      color: white;
+      p{
+        margin-left: 3%;
+      
+        
+      }
+    }
+    &-video{
+      width: 100%;
+      height: 300px;
+      border-radius: 7px;
+    }
+    &-des{
+      border-bottom: 1px solid #e2dddd;
+    }
+    &-inst{
+      border-bottom: 1px solid #e2dddd;
+   
+      &-pic{
+        width: 100%;
+        height: 100px;
+        border-radius: 6px;
+      }
+    }
+    &-acc{
+      &-logo1{
+        width: 186px; 
+        margin-top: 17%;
+        
+      }
+      &-logo2{
+        margin-left: 19%;
+        width: 100px;    
+        margin-top: 17%
+      }
+    }
+    &-intro{
+      padding: 4%;
+      border-bottom: 1px solid #e2dddd;
+
+
+    }
+  }
+
+  

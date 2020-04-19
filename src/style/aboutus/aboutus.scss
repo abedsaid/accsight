@@ -1,0 +1,26 @@
+.aboutus{
+    &-acadmy{
+        margin-top: 5%;
+       &-pic{
+           width:100%;
+           border-radius: 5px;
+        
+          
+       }
+    }
+    &-bluebox{
+        margin-top: 5%;
+        background-image: url("../../assets/blue.png");
+        opacity: 1;
+        padding: 3%;
+        h1{
+            color: white;
+        }
+        ul li{
+            list-style: none;
+            color: white;
+            font-size: 30px;
+        }
+          
+    }
+}

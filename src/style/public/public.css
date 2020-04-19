@@ -1,0 +1,115 @@
+.fontTitle {
+  font: Bold 40px/60px Roboto;
+  color: #7D7B7D;
+}
+
+.fontSubTitle {
+  font: normal 16px/24px Roboto;
+  color: #7D7B7D;
+}
+
+.fontText {
+  font: normal  24px/36px Roboto;
+  color: #7D7B7D;
+}
+
+.fontTitle2 {
+  font: normal 30px/45px Roboto;
+  color: #7D7B7D;
+}
+
+body {
+  position: relative;
+}
+
+.courses a {
+  color: gray !important;
+}
+
+.courses-navbar {
+  width: 100%;
+  background-image: url("../../assets/page title background@2x.png");
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 400px;
+  left: 0;
+  border-bottom: 2px solid #ebe7e7;
+}
+
+.courses-navbar-logo {
+  width: 200px;
+  height: 66px;
+}
+
+.courses-navbar-logo-dev {
+  top: 49px;
+}
+
+.courses-navbar-menu {
+  margin: auto;
+}
+
+.courses-navbar ul {
+  list-style: none;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+.courses-navbar li {
+  display: inline;
+  color: gray;
+  margin-left: 4%;
+  font-size: 18px !important;
+}
+
+.courses-navbar a:hover {
+  border-bottom: 3px solid #ed000b;
+}
+
+.courses-navbar a {
+  color: gray;
+  text-decoration: none;
+  font: normal 24px/45px Roboto;
+}
+
+.courses-navbar-subtitle {
+  margin-top: 172px;
+  width: 487px;
+  height: 48px;
+}
+
+.courses-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.courses-svg {
+  height: 10px;
+}
+
+.courses-join {
+  color: #ed000b;
+  font-size: 20px;
+}
+
+footer {
+  font-size: 24px;
+  margin-top: 2%;
+  width: 100%;
+  top: 100%;
+  color: white;
+  background-color: gray;
+  position: absolute;
+  overflow: hidden;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+}
+/*# sourceMappingURL=public.css.map */

@@ -1,0 +1,60 @@
+.psp {
+  position: relative;
+}
+
+.psp-title {
+  letter-spacing: 0.8px;
+  opacity: 1;
+}
+
+.psp-title-dev {
+  width: 486px;
+  height: 48px;
+}
+
+.psp-content {
+  text-align: left;
+  font: normal  24px/36px Roboto;
+  letter-spacing: 0.48px;
+  color: #7D7B7D;
+  opacity: 1;
+}
+
+.psp-content-dev {
+  width: 950px;
+}
+
+.psp-content-list {
+  text-align: left;
+  font: normal  24px/60px Roboto;
+  letter-spacing: 0.48px;
+  color: #7D7B7D;
+  opacity: 1;
+}
+
+.psp-pic {
+  width: 348px;
+  height: 414px;
+  border-radius: 40px;
+  opacity: 1;
+}
+
+.foooter {
+  font-size: 24px;
+  margin-top: 20%;
+  width: 100%;
+  top: 100%;
+  color: white;
+  background-color: gray;
+  position: absolute;
+  overflow: hidden;
+}
+
+.foooter ul {
+  list-style: none;
+}
+
+.foooter a {
+  color: white;
+}
+/*# sourceMappingURL=psp.css.map */
